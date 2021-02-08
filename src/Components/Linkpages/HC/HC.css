@@ -1,0 +1,12 @@
+.tittle {
+  background-color: #283747;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+p {
+  text-align: justify;
+}

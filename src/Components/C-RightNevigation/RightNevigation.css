@@ -1,0 +1,22 @@
+.sidebars {
+  margin-top: 5%;
+  float: right;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 9px black;
+  background-color: #283747;
+  padding: 10px;
+}
+h1 {
+  float: right;
+  box-shadow: 10px 10px 9px black;
+}
+.anchor:hover {
+  background-color: #283747;
+  transition: ease-in-out 0.5s;
+  color: aliceblue;
+}
+.about {
+  background-color: #283747;
+  color: aliceblue;
+}
