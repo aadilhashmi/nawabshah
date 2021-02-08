@@ -17,7 +17,7 @@ const Landing = () => {
         <HeaderSection />
         <LeftNevigation />
         <RightNevigation />
-
+        {/* main body routing starts from here */}
         <Col lg={9}>
           <Router>
             <Switch>
@@ -32,17 +32,20 @@ const Landing = () => {
           </Router>
         </Col>
 
-        <Router>
-          <Switch>
-            <Route path="/HC">
-              <Row>
-                <Col lg={12}>
-                  <HC />
-                </Col>
-              </Row>
-            </Route>
-          </Switch>
-        </Router>
+        {/* Hc page routing starts from here  */}
+        <Col lg={9}>
+          <Router>
+            <Switch>
+              <Route path="/HC">
+                <Row>
+                  <Col lg={12}>
+                    <HC />
+                  </Col>
+                </Row>
+              </Route>
+            </Switch>
+          </Router>
+        </Col>
 
         <FooterSection />
       </Row>
