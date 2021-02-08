@@ -2,7 +2,6 @@ import React from "react";
 import "./MainBody.css";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import HC from "../Linkpages/HC/HC";
 
 const MainBody = () => {
   return (
@@ -107,26 +106,6 @@ const MainBody = () => {
             </li>
           </ul>
         </div>
-        <Router>
-          <Switch>
-            <Route path="/HC">
-              <Row>
-                <Col lg={12}>
-                  <HC />
-                </Col>
-              </Row>
-            </Route>
-          </Switch>
-          <Switch>
-            <Route path="/Mainbody">
-              <Row>
-                <Col lg={12}>
-                  <HC />
-                </Col>
-              </Row>
-            </Route>
-          </Switch>
-        </Router>
       </div>
     </div>
   );
