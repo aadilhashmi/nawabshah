@@ -7,8 +7,8 @@ const P = () => {
       <div className="container">
         <div className="main">
           <h2 className="tittle">Principle</h2>
-          <img src="P.jpg" alt="" />
-          <p>
+          <img className="PRINCIPLE" src="P.jpg" alt="" />
+          <p className="principle">
             Dr. Syed Abdul Sattar Passed his Bachelor of Engineering from
             Marathwada University in 1990 with Distinction, then worked for
             Industry and Academic for a decade, afterwards he pursued his M.
