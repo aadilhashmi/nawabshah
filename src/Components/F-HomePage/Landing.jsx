@@ -4,21 +4,24 @@ import HeaderSection from "../A-HeaderSection/HeaderSection";
 import LeftNevigation from "../B-LeftNevigation/LeftNevigation";
 import RightNevigation from "../C-RightNevigation/RightNevigation";
 import MainBody from "../D-MainBody/MainBody";
+import HC from "../Linkpages/HC/HC";
 import FooterSection from "../E-FooterSection/FooterSection";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import HC from "../Linkpages/HC/HC";
+
 import HS from "../Linkpages/HS/HS";
 
 const Landing = () => {
   return (
     <div>
-      <HeaderSection />
-      <LeftNevigation />
       <Row>
+        <HeaderSection />
+        <LeftNevigation />
+        <RightNevigation />
+
         <Col lg={9}>
           <Router>
             <Switch>
-              <Route path="/HC">
+              <Route path="/Mainbody">
                 <Row>
                   <Col lg={12}>
                     <MainBody />
@@ -28,20 +31,21 @@ const Landing = () => {
             </Switch>
           </Router>
         </Col>
-        <RightNevigation />
+
+        <Router>
+          <Switch>
+            <Route path="/HC">
+              <Row>
+                <Col lg={12}>
+                  <HC />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
+
+        <FooterSection />
       </Row>
-      <FooterSection />
-      <Router>
-        <Switch>
-          <Route path="/HC">
-            <Row>
-              <Col lg={12}>
-                <HC />
-              </Col>
-            </Row>
-          </Route>
-        </Switch>
-      </Router>
     </div>
   );
 };
