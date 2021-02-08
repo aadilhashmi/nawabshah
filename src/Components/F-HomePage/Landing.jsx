@@ -19,7 +19,7 @@ const Landing = () => {
         <Col lg={3}>
           <RightNevigation />
         </Col>
-        <Col>
+        <Col lg={}>
           <HC />
         </Col>
       </Row>
