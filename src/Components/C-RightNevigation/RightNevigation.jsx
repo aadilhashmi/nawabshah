@@ -1,19 +1,17 @@
 import React from "react";
-import { ListGroup } from "react-bootstrap";
+import { ListGroup, Col, Row } from "react-bootstrap";
 import "./RightNevigation.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import HC from "../Linkpages/HC/HC";
 
 const RightNevigation = () => {
   return (
-    <Router>
+    <Col lg={3}>
       <div className="container">
         <div className="sidebars">
           <ListGroup>
-            <ListGroup.Item className="about" href="">
+            <ListGroup.Item className="about" action href="/Mainbody">
               ABOUT NSAKCET
             </ListGroup.Item>
-            <ListGroup.Item className="anchor" action href="">
+            <ListGroup.Item className="anchor" action href="/HC">
               Honorary Chairman
             </ListGroup.Item>
             <ListGroup.Item className="anchor" action href="">
@@ -64,7 +62,7 @@ const RightNevigation = () => {
           </ListGroup>
         </div>
       </div>
-    </Router>
+    </Col>
   );
 };
 

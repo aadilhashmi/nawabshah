@@ -5,7 +5,7 @@ import LeftNevigation from "../B-LeftNevigation/LeftNevigation";
 import RightNevigation from "../C-RightNevigation/RightNevigation";
 import MainBody from "../D-MainBody/MainBody";
 import FooterSection from "../E-FooterSection/FooterSection";
-import HC from "../Linkpages/HC/HC";
+import HS from "../Linkpages/HS/HS";
 
 const Landing = () => {
   return (
@@ -16,12 +16,7 @@ const Landing = () => {
         <Col lg={9}>
           <MainBody />
         </Col>
-        <Col lg={3}>
-          <RightNevigation />
-        </Col>
-        <Col lg={9}>
-          <HC />
-        </Col>
+        <RightNevigation />
       </Row>
       <FooterSection />
     </div>
