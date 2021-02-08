@@ -1,8 +1,9 @@
 import React from "react";
+import "./HC.css";
 
 const HC = () => {
   return (
-    <div>
+    <div className="main">
       <h2 className="tittle">Honorary Chairman</h2>
       <img src="HC.jpg" alt="error" />
       <p>
