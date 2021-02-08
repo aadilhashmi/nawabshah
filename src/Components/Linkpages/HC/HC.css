@@ -1,3 +1,7 @@
+.container {
+  width: 100%;
+}
+
 .tittle {
   background-color: #283747;
   text-align: center;
@@ -7,10 +11,16 @@
   font-weight: 500;
   margin-top: 20px;
 }
+.tittle:hover {
+  background-color: #283747;
+  transition: ease-in-out 0.5s;
+  color: rgb(236, 9, 9);
+}
 
 .main {
   margin: 0;
   padding: 0;
   text-align: justify;
   margin-top: 20px;
+  margin-left: 5%;
 }
