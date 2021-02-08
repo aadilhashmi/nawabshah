@@ -7,13 +7,10 @@
   font-weight: 500;
   margin-top: 20px;
 }
-p {
-  text-align: justify;
-}
+
 .main {
   margin: 0;
   padding: 0;
   text-align: justify;
-  margin-left: 5%;
   margin-top: 10px;
 }
