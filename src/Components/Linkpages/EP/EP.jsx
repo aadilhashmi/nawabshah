@@ -92,7 +92,7 @@ const EP = () => {
           <Card.Body>
             <Card.Title className="EP-tittle">
               Dr. R. Ramesh Reddy M.Tech(Structural) - IIT-Delhi(1976) and Ph.D.
-              - IIT-Delhi(1992).
+              - IIT-Delhi(1992). :
             </Card.Title>
             <Card.Img className="img1" variant="top" src="proff.3.jpg" />
             <Card.Text>
@@ -123,7 +123,7 @@ const EP = () => {
         <Card className="card">
           <Card.Body>
             <Card.Title className="EP-tittle">
-              Dr. B. Srinivas Reddy (Professor of Civil Engineering)
+              Dr. B. Srinivas Reddy (Professor of Civil Engineering):
             </Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
@@ -156,7 +156,7 @@ const EP = () => {
           <Card.Body>
             <Card.Title className="EP-tittle">
               Dr. Mir Moazzam Ali (M.Sc.,PhD(Chemistry), MACS, LMACT, HOD, Dept.
-              of Chemistry){" "}
+              of Chemistry):
             </Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
@@ -179,7 +179,7 @@ const EP = () => {
           <Card.Body>
             <Card.Title className="EP-tittle">
               Dr. G. Sambasiva Rao (Professor & HOD CSE (B.Tech(CSE),
-              M.Tech(CSE), Ph.D(CSE))
+              M.Tech(CSE), Ph.D(CSE)):
             </Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
@@ -203,7 +203,7 @@ const EP = () => {
             <Card.Title className="EP-tittle">
               Professor Syed Farrukh Anwar (Vice Principal &amp; HOD of Civil
               Dept., B.Tech (Civil), M.Tech(Structural), pursuing Ph.D from
-              JNTU)
+              JNTU):
             </Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
@@ -226,14 +226,21 @@ const EP = () => {
       <div>
         <Card className="card">
           <Card.Body>
-            <Card.Title className="EP-tittle"></Card.Title>
+            <Card.Title className="EP-tittle">
+              Professor Raza Ahmed Khan (Principal Polytechnic, B.E(Mechanical),
+              M.S(KFUPM), pursuing Ph.D(HVAC)):
+            </Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
-              Dr. Mir Moazzam Ali, a greatly respected and sought after guide,
-              has published several research papers in national and
-              international technical journals. A supremely skilled organizer of
-              seminars as well as symposia he has participated in 13 national
-              and international conferences.
+              Prof. Raza Ahmed Khan 20 years of rich experience in teaching,
+              research and industry; both in India and abroad. An immensely
+              acclaimed lecturer, he plays a very active and dynamic role in the
+              college. He takes keen interest in student counseling and their
+              career guidance.
+              <br />
+              His achievements include establishment of Mechanical Engineering
+              Labs &amp; Workshops at NSAKCET, and organised many seminars,
+              workshops and expert lectures for faculty.
             </Card.Text>
             <Button className="cardbutton" variant="">
               View Profile
