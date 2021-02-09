@@ -201,16 +201,20 @@ const EP = () => {
         <Card className="card">
           <Card.Body>
             <Card.Title className="EP-tittle">
-              Dr. Mir Moazzam Ali (M.Sc.,PhD(Chemistry), MACS, LMACT, HOD, Dept.
-              of Chemistry){" "}
+              Professor Syed Farrukh Anwar (Vice Principal &amp; HOD of Civil
+              Dept., B.Tech (Civil), M.Tech(Structural), pursuing Ph.D from
+              JNTU)
             </Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
-              Dr. Mir Moazzam Ali, a greatly respected and sought after guide,
-              has published several research papers in national and
-              international technical journals. A supremely skilled organizer of
-              seminars as well as symposia he has participated in 13 national
-              and international conferences.
+              Professor Syed Farrukh Anwar has more than 27 years of experience
+              in teaching and working in construction industry. He has been
+              instrumental in setting up the labs of the Civil Engineering
+              Department in NSAKCET.
+              <br />
+              Prior to joining NSAKCET, he has worked as a Structural
+              Engineering for two decades in Department of Telecommunications
+              and BSNL.
             </Card.Text>
             <Button className="cardbutton" variant="">
               View Profile
@@ -222,10 +226,7 @@ const EP = () => {
       <div>
         <Card className="card">
           <Card.Body>
-            <Card.Title className="EP-tittle">
-              Dr. Mir Moazzam Ali (M.Sc.,PhD(Chemistry), MACS, LMACT, HOD, Dept.
-              of Chemistry){" "}
-            </Card.Title>
+            <Card.Title className="EP-tittle"></Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
               Dr. Mir Moazzam Ali, a greatly respected and sought after guide,
