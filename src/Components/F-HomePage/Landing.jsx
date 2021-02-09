@@ -76,7 +76,7 @@ const Landing = () => {
           <Switch>
             <Route path="/EP">
               <Row>
-                <Col lg={12}>
+                <Col lg={9}>
                   <EP />
                 </Col>
               </Row>
@@ -85,12 +85,12 @@ const Landing = () => {
         </Router>
 
         {/* right nevigation bar routing here */}
+
         <Col lg={3}>
           <RightNevigation />
         </Col>
-
-        <FooterSection />
       </Row>
+      <FooterSection />
     </div>
   );
 };
