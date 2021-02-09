@@ -183,11 +183,12 @@ const EP = () => {
             </Card.Title>
             <Card.Img className="img1" variant="" src="" />
             <Card.Text>
-              Dr. Mir Moazzam Ali, a greatly respected and sought after guide,
-              has published several research papers in national and
-              international technical journals. A supremely skilled organizer of
-              seminars as well as symposia he has participated in 13 national
-              and international conferences.
+              Dr. G. Sambasiva Rao has 26 years of rich academic experience in
+              technical education including Industrial and currently working as
+              a Professor &amp; HOD CSE, Nawab Shah Alam Khan College of
+              Engineering &amp; Technology, New Malakpet, Hyderabad, Telangana
+              State. Earlier to the current assignment, he was the Principal of
+              JVIT, Bangalore, Karnataka.
             </Card.Text>
             <Button className="cardbutton" variant="">
               View Profile
