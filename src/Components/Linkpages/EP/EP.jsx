@@ -86,6 +86,7 @@ const EP = () => {
           </Card.Body>
         </Card>
       </div>
+
       {/* third card */}
       <div>
         <Card className="card">
@@ -117,6 +118,7 @@ const EP = () => {
           </Card.Body>
         </Card>
       </div>
+
       {/* fourth card */}
 
       <div>
@@ -149,6 +151,7 @@ const EP = () => {
           </Card.Body>
         </Card>
       </div>
+
       {/* fifth card  */}
 
       <div>
@@ -196,6 +199,7 @@ const EP = () => {
           </Card.Body>
         </Card>
       </div>
+
       {/* seventh card */}
       <div>
         <Card className="card">
@@ -222,6 +226,7 @@ const EP = () => {
           </Card.Body>
         </Card>
       </div>
+
       {/* eight card */}
       <div>
         <Card className="card">
