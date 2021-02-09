@@ -25,7 +25,7 @@ const RightNevigation = () => {
           <ListGroup.Item className="anchor" action href="/P">
             Principle
           </ListGroup.Item>
-          <ListGroup.Item className="anchor" action href="">
+          <ListGroup.Item className="anchor" action href="/EP">
             Eminent Proffessors
           </ListGroup.Item>
           <ListGroup.Item className="anchor" action href="">

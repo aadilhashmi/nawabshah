@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HC from "../Linkpages/HC/HC";
 import HS from "../Linkpages/HS/HS";
 import P from "../Linkpages/P/P";
+import EP from "../Linkpages/EP/EP";
 
 const Landing = () => {
   return (
@@ -64,6 +65,19 @@ const Landing = () => {
               <Row>
                 <Col lg={10}>
                   <P />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
+
+        {/* Ep page routing starts from here */}
+        <Router>
+          <Switch>
+            <Route path="/EP">
+              <Row>
+                <Col lg={10}>
+                  <EP />
                 </Col>
               </Row>
             </Route>
