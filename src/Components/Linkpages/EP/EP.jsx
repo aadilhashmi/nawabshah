@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 const EP = () => {
   return (
     <div>
-      <Card style={{ width: "50rem" }}>
+      <Card style={{ width: "60rem" }} className="card1">
         <Card.Img variant="top" src="" />
         <Card.Body>
           <Card.Title className="tittle">

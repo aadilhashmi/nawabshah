@@ -76,7 +76,7 @@ const Landing = () => {
           <Switch>
             <Route path="/EP">
               <Row>
-                <Col lg={10}>
+                <Col lg={12}>
                   <EP />
                 </Col>
               </Row>
