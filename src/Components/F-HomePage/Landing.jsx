@@ -6,12 +6,12 @@ import RightNevigation from "../C-RightNevigation/RightNevigation";
 import MainBody from "../D-MainBody/MainBody";
 import FooterSection from "../E-FooterSection/FooterSection";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import HC from "../Linkpages/HC/HC";
-import HS from "../Linkpages/HS/HS";
-import P from "../Linkpages/P/P";
-import EP from "../Linkpages/EP/EP";
+import HC from "../Linkpages/E-HC/HC";
+import HS from "../Linkpages/A-HS/HS";
+import P from "../Linkpages/C-P/P";
+import EP from "../Linkpages/D-EP/EP";
 import CVOI from "../Linkpages/CVOI/CVOI";
-import JS from "../Linkpages/JS/JS";
+import JS from "../Linkpages/B-JS/JS";
 
 const Landing = () => {
   return (
@@ -32,6 +32,19 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
+        {/* Hs page routing starts from here  */}
+
+        <Router>
+          <Switch>
+            <Route path="/HS">
+              <Row>
+                <Col lg={12}>
+                  <HS />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
 
         {/* Hc page routing starts from here  */}
 
@@ -46,6 +59,7 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
+
         {/* JS rosuting stars from here */}
         <Router>
           <Switch>
@@ -59,19 +73,6 @@ const Landing = () => {
           </Switch>
         </Router>
 
-        {/* Hs page routing starts from here */}
-
-        <Router>
-          <Switch>
-            <Route path="/HS">
-              <Row>
-                <Col lg={12}>
-                  <HS />
-                </Col>
-              </Row>
-            </Route>
-          </Switch>
-        </Router>
         {/* principle routing starts from here */}
         <Router>
           <Switch>
