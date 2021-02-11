@@ -19,7 +19,6 @@ const Landing = () => {
       <Row>
         <HeaderSection />
         <LeftNevigation />
-
         {/* main body routing starts from here */}
         <Router>
           <Switch>
@@ -32,8 +31,7 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-        {/* Hs page routing starts from here  */}
-
+        {/* Hs page routing starts from here  */}+
         <Router>
           <Switch>
             <Route path="/HS">
@@ -45,9 +43,7 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-
         {/* Hc page routing starts from here  */}
-
         <Router>
           <Switch>
             <Route path="/HC">
@@ -59,7 +55,6 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-
         {/* JS rosuting stars from here */}
         <Router>
           <Switch>
@@ -72,7 +67,6 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-
         {/* principle routing starts from here */}
         <Router>
           <Switch>
@@ -85,7 +79,6 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-
         {/* Ep page routing starts from here */}
         <Router>
           <Switch>
@@ -98,7 +91,6 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-
         {/* CVOI page routing starts from here */}
         <Router>
           <Switch>
@@ -111,9 +103,7 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-
         {/* right nevigation bar routing here */}
-
         <Col lg={3}>
           <RightNevigation />
         </Col>
