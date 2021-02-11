@@ -16,10 +16,10 @@ const RightNevigation = () => {
           <ListGroup.Item className="anchor" action href="/HS">
             Honorary Secretrary
           </ListGroup.Item>
-          <ListGroup.Item className="anchor" action href="">
+          <ListGroup.Item className="anchor" action href="/JS">
             Joint Secretrary
           </ListGroup.Item>
-          <ListGroup.Item className="anchor" action href="">
+          <ListGroup.Item className="anchor" action href="/D">
             Director
           </ListGroup.Item>
           <ListGroup.Item className="anchor" action href="/P">
@@ -28,7 +28,7 @@ const RightNevigation = () => {
           <ListGroup.Item className="anchor" action href="/EP">
             Eminent Proffessors
           </ListGroup.Item>
-          <ListGroup.Item className="anchor" action href="">
+          <ListGroup.Item className="anchor" action href="/CVOI">
             Core Values Of Institute
           </ListGroup.Item>
           <ListGroup.Item className="anchor" action href="">

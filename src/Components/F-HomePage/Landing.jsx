@@ -10,6 +10,9 @@ import HC from "../Linkpages/A-HC/HC";
 import HS from "../Linkpages/B-HS/HS";
 import P from "../Linkpages/E-P/P";
 import EP from "../Linkpages/F-EP/EP";
+import JS from "../Linkpages/C-JS/JS";
+import D from "../Linkpages/D-D/D";
+import CVOI from "../Linkpages/G-CVOI/CVOI";
 
 const Landing = () => {
   return (
@@ -58,6 +61,33 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
+
+        {/* JS routing here */}
+        <Router>
+          <Switch>
+            <Route path="/JS">
+              <Row>
+                <Col lg={9}>
+                  <JS />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
+
+        {/* DIRECTOR Page routing here */}
+        <Router>
+          <Switch>
+            <Route path="/D">
+              <Row>
+                <Col lg={12}>
+                  <D />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
+
         {/* principle routing starts from here */}
         <Router>
           <Switch>
@@ -78,6 +108,18 @@ const Landing = () => {
               <Row>
                 <Col lg={9}>
                   <EP />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
+        {/* CORE Value page routing from here */}
+        <Router>
+          <Switch>
+            <Route path="/CVOI">
+              <Row>
+                <Col lg={9}>
+                  <CVOI />
                 </Col>
               </Row>
             </Route>
