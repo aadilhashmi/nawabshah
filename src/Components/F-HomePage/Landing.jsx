@@ -6,12 +6,10 @@ import RightNevigation from "../C-RightNevigation/RightNevigation";
 import MainBody from "../D-MainBody/MainBody";
 import FooterSection from "../E-FooterSection/FooterSection";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import HC from "../Linkpages/E-HC/HC";
-import HS from "../Linkpages/A-HS/HS";
-import P from "../Linkpages/C-P/P";
-import EP from "../Linkpages/D-EP/EP";
-import CVOI from "../Linkpages/CVOI/CVOI";
-import JS from "../Linkpages/B-JS/JS";
+import HC from "../Linkpages/A-HC/HC";
+import HS from "../Linkpages/B-HS/HS";
+import P from "../Linkpages/E-P/P";
+import EP from "../Linkpages/F-EP/EP";
 
 const Landing = () => {
   return (
@@ -19,6 +17,7 @@ const Landing = () => {
       <Row>
         <HeaderSection />
         <LeftNevigation />
+
         {/* main body routing starts from here */}
         <Router>
           <Switch>
@@ -31,19 +30,9 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-        {/* Hs page routing starts from here  */}+
-        <Router>
-          <Switch>
-            <Route path="/HS">
-              <Row>
-                <Col lg={12}>
-                  <HS />
-                </Col>
-              </Row>
-            </Route>
-          </Switch>
-        </Router>
+
         {/* Hc page routing starts from here  */}
+
         <Router>
           <Switch>
             <Route path="/HC">
@@ -55,13 +44,15 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-        {/* JS rosuting stars from here */}
+
+        {/* Hs page routing starts from here */}
+
         <Router>
           <Switch>
-            <Route path="/JS">
+            <Route path="/HS">
               <Row>
-                <Col lg={10}>
-                  <JS />
+                <Col lg={12}>
+                  <HS />
                 </Col>
               </Row>
             </Route>
@@ -79,6 +70,7 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
+
         {/* Ep page routing starts from here */}
         <Router>
           <Switch>
@@ -91,19 +83,9 @@ const Landing = () => {
             </Route>
           </Switch>
         </Router>
-        {/* CVOI page routing starts from here */}
-        <Router>
-          <Switch>
-            <Route path="/CVOI">
-              <Row>
-                <Col lg={10}>
-                  <CVOI />
-                </Col>
-              </Row>
-            </Route>
-          </Switch>
-        </Router>
+
         {/* right nevigation bar routing here */}
+
         <Col lg={3}>
           <RightNevigation />
         </Col>
