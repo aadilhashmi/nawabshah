@@ -10,6 +10,7 @@ import HC from "../Linkpages/HC/HC";
 import HS from "../Linkpages/HS/HS";
 import P from "../Linkpages/P/P";
 import EP from "../Linkpages/EP/EP";
+import CVOI from "../Linkpages/CVOI/CVOI";
 
 const Landing = () => {
   return (
@@ -78,6 +79,19 @@ const Landing = () => {
               <Row>
                 <Col lg={9}>
                   <EP />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
+
+        {/* CVOI page routing starts from here */}
+        <Router>
+          <Switch>
+            <Route path="/CVOI">
+              <Row>
+                <Col lg={10}>
+                  <CVOI />
                 </Col>
               </Row>
             </Route>
