@@ -1,5 +1,7 @@
 .container {
   width: 100%;
+  font-size: 17px;
+  font-family: Ubuntu;
 }
 .main {
   margin: 0;

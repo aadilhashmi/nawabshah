@@ -5,7 +5,7 @@ const CVOI = () => {
   return (
     <div className="container">
       <h2>Core Values Of Institute</h2>
-      <h2 className="head2">Integrity</h2>
+      <h3 className="head2">Integrity</h3>
       <h4 className="head3">Defination</h4>
       <p>
         Setting the highest ethical standards for self and others in everything
