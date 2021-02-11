@@ -16,7 +16,7 @@ const RightNevigation = () => {
           <ListGroup.Item className="anchor" action href="/HS">
             Honorary Secretrary
           </ListGroup.Item>
-          <ListGroup.Item className="anchor" action href="">
+          <ListGroup.Item className="anchor" action href="/JS">
             Joint Secretrary
           </ListGroup.Item>
           <ListGroup.Item className="anchor" action href="">

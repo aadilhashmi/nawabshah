@@ -11,6 +11,7 @@ import HS from "../Linkpages/HS/HS";
 import P from "../Linkpages/P/P";
 import EP from "../Linkpages/EP/EP";
 import CVOI from "../Linkpages/CVOI/CVOI";
+import JS from "../Linkpages/JS/JS";
 
 const Landing = () => {
   return (
@@ -40,6 +41,18 @@ const Landing = () => {
               <Row>
                 <Col lg={12}>
                   <HC />
+                </Col>
+              </Row>
+            </Route>
+          </Switch>
+        </Router>
+        {/* JS rosuting stars from here */}
+        <Router>
+          <Switch>
+            <Route path="/JS">
+              <Row>
+                <Col lg={10}>
+                  <JS />
                 </Col>
               </Row>
             </Route>
