@@ -4,7 +4,7 @@ import "./CVOI.css";
 const CVOI = () => {
   return (
     <div className="container">
-      <h1 classname="head1">Core Values Of Institute</h1>
+      <h2>Core Values Of Institute</h2>
       <h2 className="head2">Integrity</h2>
       <h4 className="head3">Defination</h4>
       <p>
