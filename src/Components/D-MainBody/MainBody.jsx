@@ -3,7 +3,7 @@ import "./MainBody.css";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const MainBody = () => {
+const MainBody = ({ Data }) => {
   return (
     <React.Fragment>
       {/* // about us page starts from here */}
@@ -12,16 +12,7 @@ const MainBody = () => {
           <div className="tittle">
             <h2>Nawab Shah Alam Khan College Of Engineering and Technology</h2>
           </div>
-          <p className="owner">
-            <b>NAWAB SHAH ALAM</b> This institution has been established under
-            the aegis of MADARSA-I-AIZZA, a registered educational society
-            registered on 28th December 1961 under the Hyderabad societies
-            registration Act No. 1 of 1350 fosli. In fact the Madrasa-i-aizza
-            was founded in the year 1876 AD by the efforts of Moulvi Shaik Ahmed
-            Husain sahib, Nawab Rafi Yar Jung, with the express object of
-            imparting liberal / scientific / professional education to the
-            children of Muslim community.
-          </p>
+          <p className="owner">{Data.discription}</p>
           <p>
             In the year 1945, the school was made a feeder of the Osmania
             University preparing students for the H.S.C public examinations. The

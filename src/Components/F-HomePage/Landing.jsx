@@ -13,6 +13,7 @@ import EP from "../Linkpages/F-EP/EP";
 import JS from "../Linkpages/C-JS/JS";
 import D from "../Linkpages/D-D/D";
 import CVOI from "../Linkpages/G-CVOI/CVOI";
+import { MainBodyReducers } from "../../States/Reducers/MainBodyReducers";
 
 const Landing = () => {
   return (
@@ -20,6 +21,11 @@ const Landing = () => {
       <Row>
         <HeaderSection />
         <LeftNevigation />
+        <div>
+          {MainBodyReducers.mainBody.map((fecthData) => {
+            return <MainBodyReducers Data={fecthData} />;
+          })}
+        </div>
 
         {/* main body routing starts from here */}
         <Router>
