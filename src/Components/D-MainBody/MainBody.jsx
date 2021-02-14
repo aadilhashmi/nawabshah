@@ -13,27 +13,8 @@ const MainBody = ({ Data }) => {
             <h2>Nawab Shah Alam Khan College Of Engineering and Technology</h2>
           </div>
           <p className="owner">{Data.discription}</p>
-          <p>
-            In the year 1945, the school was made a feeder of the Osmania
-            University preparing students for the H.S.C public examinations. The
-            late Nawab Sir Nizamath Jung, an illustrious son of the founder was
-            associated with the school as honorary secretary for over 50 years
-            till he retired in 1947 and during his regime the school made rapid
-            strides on the path of progress. Telugu medium classes were opened
-            as parallel section in the year 1955. In 1964, English classes were
-            opened and in the year 1987, a modern school in English medium with
-            name ?Neo School Aizza? was established. The year 1999 was a
-            landmark in the history of the educational society when the
-            management decided to start an engineering college in the
-            educationally backward region of ADILABAD. The engineering college
-            is functioning for the past 8 years very successfully.
-          </p>
-          <p>
-            The college is one of the best engineering colleges imparting
-            quality education with values. It is affiliated to Jawaharlal Nehru
-            Technological University (JNTU) and approved by All India Council
-            for Technical Education (AICTE).
-          </p>
+          <p>{Data.discription2}</p>
+          <p></p>
           {/* features  */}
           <div className="feature">
             <h3 className="headings">
