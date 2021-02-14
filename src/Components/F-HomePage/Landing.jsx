@@ -6,6 +6,7 @@ import RightNevigation from "../C-RightNevigation/RightNevigation";
 import MainBody from "../D-MainBody/MainBody";
 import FooterSection from "../E-FooterSection/FooterSection";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { MainBodyReducers } from "../../States/Reducers/MainBodyReducers";
 import HC from "../Linkpages/A-HC/HC";
 import HS from "../Linkpages/B-HS/HS";
 import P from "../Linkpages/E-P/P";
@@ -24,10 +25,12 @@ const Landing = () => {
         {/* main body routing starts from here */}
         <Router>
           <Switch>
-            <Route path="/Mainbody">
+            <Route path="/">
               <Row>
                 <Col lg={12}>
-                  <MainBody />
+                  {MainBodyReducers.mainBody.map((fecthData) => {
+                    return <MainBody Data={fecthData} />;
+                  })}
                 </Col>
               </Row>
             </Route>
