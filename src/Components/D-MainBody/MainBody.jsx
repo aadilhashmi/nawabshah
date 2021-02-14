@@ -14,7 +14,7 @@ const MainBody = ({ Data }) => {
           </div>
           <p className="owner">{Data.discription}</p>
           <p>{Data.discription2}</p>
-          <p></p>
+          <p> {Data.discription3}</p>
           {/* features  */}
           <div className="feature">
             <h3 className="headings">

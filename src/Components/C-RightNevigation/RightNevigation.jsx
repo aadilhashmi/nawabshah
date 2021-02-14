@@ -7,7 +7,7 @@ const RightNevigation = () => {
     <div className="container">
       <div className="sidebars">
         <ListGroup>
-          <ListGroup.Item className="anchor" action href="/Mainbody">
+          <ListGroup.Item className="anchor" action href="/">
             ABOUT NSAKCET
           </ListGroup.Item>
           <ListGroup.Item className="anchor" action href="/HC">
