@@ -154,7 +154,7 @@ const EP = () => {
 
       {/* fifth card  */}
 
-      <div>
+      <div className="Ep">
         <Card className="card">
           <Card.Body>
             <Card.Title className="EP-tittle">
