@@ -17,15 +17,15 @@ const CVOI = () => {
         and confidence in our stakeholders.
       </p>
 
-      <div>
+      {/* accordian  */}
+
+      <div className="accordian">
         <Accordion defaultActiveKey="0">
           <Card className="cvoi">
-            <Card.Header>
-              <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                <h3>Demonstrable / Observable Attributes:</h3>
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="0">
+            <Accordion.Toggle as={Button} variant="link" eventKey="0">
+              <h3>Demonstrable / Observable Attributes:</h3>
+            </Accordion.Toggle>
+          <Accordion.Collapse eventKey="0">
               <Card.Body>
                 <ul>
                   <li>Is honest and transparent.</li>
@@ -37,13 +37,15 @@ const CVOI = () => {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
+        </Accordion>
+
+        {/* accordian2 */}
+        <Accordion defaultActiveKey="0">
           <Card className="cvoi">
-            <Card.Header>
+        
               <Accordion.Toggle as={Button} variant="link" eventKey="1">
                 Click me!
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="1">
+              </Accordion.Toggle>   <Accordion.Collapse eventKey="1">
               <Card.Body>Hello! I'm another body</Card.Body>
             </Accordion.Collapse>
           </Card>
