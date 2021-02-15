@@ -1,3 +1,14 @@
 .container {
   text-align: justify;
 }
+.cvoi {
+  color: #ffffff;
+}
+.head1 {
+  color: #283747;
+  /* text-align: center; */
+  border-radius: 10px;
+}
+.para-cvoi {
+  margin: 5px;
+}
