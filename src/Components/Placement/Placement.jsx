@@ -21,18 +21,15 @@ const Placement = () => {
 
     return (
       <>
-           <Slider className="ABC" {...settings}>
-  
-              
+           
+           <Slider className="ABC" {...settings}> 
             {PlacementReducer.Placement.map((PlacementData) => {
               return (
                 <div>
                   {/* <p>{PlacementData.discription}</p>
                   <p>{PlacementData.discription2}</p>
                   <p>{PlacementData.discription3}</p> */}
-
-                  <iframe src={PlacementData.pdf} frameborder="0">
-                  </iframe>
+                  <iframe src={PlacementData.pdf} frameborder="0"></iframe>
                 </div>
               );
               
