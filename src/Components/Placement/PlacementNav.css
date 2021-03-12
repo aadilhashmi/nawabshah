@@ -1,9 +1,7 @@
 .Nav-bar {
-  border-radius: 10px;
-  position: absolute;
   width: 480px;
-  top: 50%;
-  left: 50%;
+  border-radius: 20px;
+  /* text-align: center; */
 }
 ul {
   background: rgb(173, 173, 201);
@@ -14,8 +12,4 @@ ul {
 li {
   position: relative;
   margin-right: -4px;
-  text-align: center;
-}
-h3 {
-  text-align: center;
 }

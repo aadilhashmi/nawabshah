@@ -1,5 +1,6 @@
 import React from "react";
 import { PlacementReducer } from "../../States/Reducers/PlacementRedeucer";
+import "./MegaFair.css";
 
 const MegaFair2018 = () => {
   return (
@@ -7,7 +8,11 @@ const MegaFair2018 = () => {
       {PlacementReducer.Placement.map((PlacementData) => {
         return (
           <div>
-            <iframe src={PlacementData.pdf} frameborder="0"></iframe>
+            <iframe
+              className="pdf"
+              src={PlacementData.pdf}
+              frameborder="0"
+            ></iframe>
           </div>
         );
       })}

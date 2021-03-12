@@ -12,6 +12,12 @@ Leading organizations have been invited for campus selections. Nawab Shah Alam K
 
 `,
       pdf: "confirmcompanieslist.pdf",
+      image: "1.png",
+      image: "2.jpg",
+      image: "3.jpg",
+      image: "4.jpg",
+      image: "5.jpg",
+      image: "6.png",
     },
   ],
 };
