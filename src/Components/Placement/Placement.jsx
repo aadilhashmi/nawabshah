@@ -9,21 +9,18 @@ import "./Placement.css";
 
 
 const Placement = () => {
-    const settings = {
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
-    };
+    // const settings = {
+    //   dots: true,
+    //   infinite: true,
+    //   speed: 500,
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1,
+    // };
 
     return (
       <>
            
-           <Slider className="ABC" {...settings}> 
+           {/* <Slider className="ABC" {...settings}>  */}
             {PlacementReducer.Placement.map((PlacementData) => {
               return (
                 <div>
@@ -35,7 +32,7 @@ const Placement = () => {
               );
               
             })}
-            </Slider>
+            {/* </Slider> */}
             </>
     );
 };
