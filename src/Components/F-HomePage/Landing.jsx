@@ -7,19 +7,21 @@ import RightNevigation from "../C-RightNevigation/RightNevigation";
 import FooterSection from "../E-FooterSection/FooterSection";
 
 import AllRouting from "../All-Routing/AllRouting";
+import Placement from "../Placement/Placement";
 
 const Landing = () => {
   return (
     <div>
       <Row>
-        <HeaderSection />
-        <LeftNevigation />
-        <AllRouting />
+        {/* <HeaderSection /> */}
+        {/* <LeftNevigation /> */}
+        {/* <AllRouting /> */}
+        <Placement/>
 
         {/* right nevigation bar routing here */}
 
         <Col lg={3}>
-          <RightNevigation />
+          {/* <RightNevigation /> */}
         </Col>
       </Row>
       <FooterSection />
