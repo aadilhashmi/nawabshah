@@ -8,6 +8,7 @@ import FooterSection from "../E-FooterSection/FooterSection";
 
 import AllRouting from "../All-Routing/AllRouting";
 import Placement from "../Placement/Placement";
+import MegaFair2018 from "../Placement/MegaFair2018.jsx";
 
 const Landing = () => {
   return (
@@ -23,6 +24,7 @@ const Landing = () => {
       </Row>
       <FooterSection />
       <Placement />
+      <MegaFair2018/>
     </div>
   );
 };

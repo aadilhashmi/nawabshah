@@ -24,10 +24,9 @@ const Placement = () => {
             {PlacementReducer.Placement.map((PlacementData) => {
               return (
                 <div>
-                  {/* <p>{PlacementData.discription}</p>
+                  <p>{PlacementData.discription}</p>
                   <p>{PlacementData.discription2}</p>
-                  <p>{PlacementData.discription3}</p> */}
-                  <iframe src={PlacementData.pdf} frameborder="0"></iframe>
+                  <p>{PlacementData.discription3}</p>
                 </div>
               );
               
