@@ -16,15 +16,13 @@ const Landing = () => {
         {/* <HeaderSection /> */}
         {/* <LeftNevigation /> */}
         {/* <AllRouting /> */}
-        <Placement/>
 
         {/* right nevigation bar routing here */}
 
-        <Col lg={3}>
-          {/* <RightNevigation /> */}
-        </Col>
+        <Col lg={3}>{/* <RightNevigation /> */}</Col>
       </Row>
       <FooterSection />
+      <Placement />
     </div>
   );
 };

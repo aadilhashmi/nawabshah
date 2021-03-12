@@ -1,3 +1,5 @@
+
+
 export const PlacementReducer = {
   Placement: [
     {
@@ -11,7 +13,7 @@ Leading organizations have been invited for campus selections. Nawab Shah Alam K
 
 
 `,
-
+      pdf: "confirmcompanieslist.pdf",
     },
   ],
 };
