@@ -1,1 +1,8 @@
-const 
+export const PlacementReducer = {
+  Placement: [
+    {
+    
+     
+    },
+  ],
+};
