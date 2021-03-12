@@ -21,6 +21,7 @@ const AllRouting = () => {
               <Row>
                 <Col lg={12}>
                   {MainBodyReducers.mainBody.map((fecthData) => {
+                    console.log("testing.........", fecthData);
                     return <MainBody Data={fecthData} />;
                   })}
                 </Col>
