@@ -25,7 +25,7 @@ const Landing = () => {
       </Row>
       <FooterSection />
       {/* <MegaFair2018 /> */}
-      {/* <Placement /> */}
+      <Placement />
       <PlacementCarasoul />
 
       {/* <PlacementNevBar/> */}
