@@ -9,7 +9,7 @@ import FooterSection from "../E-FooterSection/FooterSection";
 import AllRouting from "../All-Routing/AllRouting";
 import Placement from "../Placement/Placement";
 import MegaFair2018 from "../Placement/MegaFair2018.jsx";
-import PlacementNevBar from "../Placement/PlacementNevBar";
+import PlacementCarasoul from "../Placement/PlacementCarasoul";
 
 const Landing = () => {
   return (
@@ -26,6 +26,7 @@ const Landing = () => {
       <FooterSection />
       <MegaFair2018 />
       <Placement />
+      <PlacementCarasoul />
 
       {/* <PlacementNevBar/> */}
     </div>
