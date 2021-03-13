@@ -1,14 +1,11 @@
 import React from "react";
 import { PlacementReducer } from "../../States/Reducers/PlacementRedeucer";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import "./Placement.css";
 
 const Placement = () => {
   return (
     <>
-      {/* <Slider className="ABC" {...settings}>  */}
+      {/* <Slider >  */}
       {PlacementReducer.Placement.map((PlacementData) => {
         return (
           <div>
