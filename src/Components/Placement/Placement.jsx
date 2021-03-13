@@ -19,7 +19,7 @@ const Placement = () => {
           </>
         );
       })}
-      <Card style={{ width: "20rem", height: "20rem" }}>
+      <Card className="place-Card" style={{ width: "20rem", height: "20rem" }}>
         <Card.Img variant="top" src="" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
