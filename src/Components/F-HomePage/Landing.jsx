@@ -24,9 +24,9 @@ const Landing = () => {
         <Col lg={3}>{/* <RightNevigation /> */}</Col>
       </Row>
       <FooterSection />
-      {/* <MegaFair2018 /> */}
-      <Placement />
-      <PlacementCarasoul />
+      <MegaFair2018 />
+      {/* <Placement /> */}
+      {/* <PlacementCarasoul /> */}
 
       {/* <PlacementNevBar/> */}
     </div>
